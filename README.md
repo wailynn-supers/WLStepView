@@ -1,6 +1,6 @@
 # WLStepView
 
-[![CI Status](http://img.shields.io/travis/Wai Lynn Zaw/WLStepView.svg?style=flat)](https://travis-ci.org/Wai Lynn Zaw/WLStepView)
+[![CI Status](http://img.shields.io/travis/wailynn-wlz/WLStepView.svg?style=flat)](https://travis-ci.org/wailynn-wlz/WLStepView)
 [![Version](https://img.shields.io/cocoapods/v/WLStepView.svg?style=flat)](http://cocoapods.org/pods/WLStepView)
 [![License](https://img.shields.io/cocoapods/l/WLStepView.svg?style=flat)](http://cocoapods.org/pods/WLStepView)
 [![Platform](https://img.shields.io/cocoapods/p/WLStepView.svg?style=flat)](http://cocoapods.org/pods/WLStepView)
