@@ -34,6 +34,9 @@
                             <constraint firstAttribute="trailing" secondItem="A9r-Ll-XrV" secondAttribute="trailing" constant="16" id="oSX-p6-IgX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="stepView" destination="A9r-Ll-XrV" id="KEv-Zv-axT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
