@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WLStepView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A horizontal step view'
   s.description      = <<-DESC
 A horizntal step view for showing steps or routes with customizable properties.
