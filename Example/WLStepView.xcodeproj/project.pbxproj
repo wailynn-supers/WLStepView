@@ -41,6 +41,7 @@
 		607FACE51AFB9204008FA782 /* WLStepView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLStepView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6184E3A31FB0150A00BA63A8 /* WLStepView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WLStepView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1AE1AEABEB8544047B37EF /* Pods-WLStepView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLStepView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLStepView_Tests/Pods-WLStepView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84D5E77401A675D41F2DFB5A /* Pods-WLStepView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLStepView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLStepView_Tests/Pods-WLStepView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AFA0D8C418BC5399D19FC567 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		70F69B04D88C402908D8E0D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6184E3A31FB0150A00BA63A8 /* WLStepView.framework */,
 				F5696B923D62AA1F917FCB23 /* Pods_WLStepView_Example.framework */,
 				F77DF37A2C7C74AC8DC5B65F /* Pods_WLStepView_Tests.framework */,
 			);

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WLStepView
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        stepView.delegate = self
+    }
+}
+extension ViewController: WLStepViewDelegate {
+    func stepView(_ index: Int, _ position: WLStepView.TextPosition) -> String {
+        let array = ["YGN", "NPT", "MDL"]
+        if position == .bottom {
+            return array[index]
+        } else {
+            if index == 0 || index == array.count - 1 {
+                return ""
+            } 
+            return "Via"
+        }
     }
 }
 

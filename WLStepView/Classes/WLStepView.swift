@@ -9,29 +9,29 @@
 import UIKit
 
 @IBDesignable
-class WLStepView: UIView {
+public class WLStepView: UIView {
     
     @IBInspectable
-    var lineWidth: CGFloat = 5.0
+    public var lineWidth: CGFloat = 5.0
     
     @IBInspectable
-    var color: UIColor = UIColor.blue
+    public var color: UIColor = UIColor.blue
     
     @IBInspectable
-    var circleRadius: CGFloat = 8.0
+    public var circleRadius: CGFloat = 8.0
     
     @IBInspectable
-    var numberOfPoints: Int = 3
+    public var numberOfPoints: Int = 3
     
     @IBInspectable
-    var textFont: UIFont = UIFont.systemFont(ofSize: 12)
+    public var textFont: UIFont = UIFont.systemFont(ofSize: 12)
     
-    enum TextPosition {
+    public enum TextPosition {
         case top
         case bottom
     }
     
-    var delegate: WLStepViewDelegate?
+    public var delegate: WLStepViewDelegate?
     
     private func pathForLine() -> UIBezierPath {
         var startPoint: CGPoint {
@@ -59,7 +59,7 @@ class WLStepView: UIView {
         text.draw(at: rect)
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         color.set()
         pathForLine().stroke()
         
@@ -85,6 +85,6 @@ class WLStepView: UIView {
         
     }
 }
-protocol WLStepViewDelegate {
+public protocol WLStepViewDelegate {
     func stepView(_ index: Int,_ position: WLStepView.TextPosition) -> String
 }
