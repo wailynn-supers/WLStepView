@@ -4,8 +4,8 @@
 
 language: swift 
 osx_image: xcode9 
-xcode_workspace: WLCardView.xcworkspace 
-xcode_scheme: WLCardView-Example
+xcode_workspace: WLStepView.xcworkspace 
+xcode_scheme: WLStepView-Example
 xcode_sdk: iphonesimulator11.0
 
 script:
