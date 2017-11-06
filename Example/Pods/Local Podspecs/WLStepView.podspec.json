@@ -1,0 +1,22 @@
+{
+  "name": "WLStepView",
+  "version": "0.1.0",
+  "summary": "A short description of WLStepView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Wai Lynn Zaw/WLStepView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wai Lynn Zaw": "wailynnzaw@owaytrip.com"
+  },
+  "source": {
+    "git": "https://github.com/Wai Lynn Zaw/WLStepView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WLStepView/Classes/**/*"
+}

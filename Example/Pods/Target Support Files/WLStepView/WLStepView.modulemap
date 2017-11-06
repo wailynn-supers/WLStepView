@@ -1,0 +1,6 @@
+framework module WLStepView {
+  umbrella header "WLStepView-umbrella.h"
+
+  export *
+  module * { export * }
+}
