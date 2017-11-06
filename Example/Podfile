@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLStepView_Example' do
+  pod 'WLStepView', :path => '../'
+
+  target 'WLStepView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
