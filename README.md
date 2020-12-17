@@ -22,7 +22,7 @@ pod 'WLStepView'
 
 ## Author
 
-Wai Lynn Zaw, wailynnzaw@owaytrip.com
+Wai Lynn Zaw, wailynnzaw.lamz@gmail.com 
 
 ## License
 
